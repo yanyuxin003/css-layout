@@ -8,7 +8,80 @@ html {
 }
 
 ul {
-    list-style: none;
+    list-style: none;/*没有格式*/
     margin: 0;
     padding: 0;
+}
+
+header {
+    width: 100%;
+    position: fixed;/*屏幕滚动不消失*/
+    background-color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;/*垂直居中*/
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;/*水平居中*/
+}
+
+header img {
+    float: left;
+    border-radius: 50%;  
+}
+
+nav {  
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+ul li {
+    display: inline;    
+}
+
+nav li a {
+    color: white;
+}
+
+
+.description{
+    background-color: rgb(241, 241, 241);
+    padding: 130px 100px 50px;
+}
+
+.description  img{
+    float: left;
+    width: 400px;
+    height: 450px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.description-p2 {
+    clear: both; /*清除浮动元素*/
+}
+
+.relationship{
+    padding: 80px 100px;
+}
+
+.relationship img {
+    float: right;/*右边文字环绕*/
+    width: 450px;
+    height: 500px;
+    padding-left: 20px;
+}
+
+footer{
+    background-color: rgb(169, 169, 169);
+    clear: both;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    line-height:100px;/*宽度100px垂直居中*/
 }
